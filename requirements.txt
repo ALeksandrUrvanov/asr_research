@@ -1,0 +1,11 @@
+ Python==3.11.5
+ google-cloud-speech==2.26.1
+ gTTS==2.5.1
+ huggingface-hub==0.23.5
+ jupyterlab==4.2.3
+ pyannote.audio==3.3.1
+ PyAudio==0.2.14
+ SpeechRecognition==3.10.4
+ torch==2.3.1
+ transformers==4.40.2
+ vosk==0.3.44
