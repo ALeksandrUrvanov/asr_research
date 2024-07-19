@@ -23,5 +23,7 @@
 - numpy
 - gc
 
-Python 3.11.5
-Платформа Mac OS 
+## Инфо
+
+- Python 3.11.5
+- Платформа Mac OS 
