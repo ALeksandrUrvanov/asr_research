@@ -27,4 +27,14 @@
 ## Инфо
 
 - Python 3.11.5
-- Платформа Mac OS 
+- Платформа Mac OS
+ 
+Для работы кода необходимо создать токен по для доступа по инструкции: 
+https://huggingface.co/pyannote/speaker-diarization-3.1
+
+Токен нужно заполнить в следующей части кода:
+
+pipeline = Pipeline.from_pretrained(
+  "pyannote/speaker-diarization-3.1",
+  use_auth_token="HUGGINGFACE_ACCESS_TOKEN_GOES_HERE")
+
