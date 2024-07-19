@@ -32,7 +32,7 @@
 Для работы кода необходимо создать токен по для доступа по инструкции: 
 https://huggingface.co/pyannote/speaker-diarization-3.1
 
-Токен нужно заполнить в следующей части кода:
+Токен нужен в следующей части кода:
 
 pipeline = Pipeline.from_pretrained(
   "pyannote/speaker-diarization-3.1",
